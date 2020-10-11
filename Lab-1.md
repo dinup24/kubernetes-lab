@@ -28,7 +28,7 @@ The `Dockerfile` to build the docker image is present in the root folder
 
 Execute the following command to build a docker image with the executable jar created in the previous step
 ```
-docker build -t kubernetes-lab/app:0.0.1 .
+docker build -t kubernetes-lab-app:0.0.1 .
 ```
 
 To see the list of images `docker images`
@@ -40,7 +40,7 @@ To see the list of images `docker images`
 **5. Tag the docker image**  
 Tag the docker image with docker-id created in the previous step. This is required to push the image to docker hub.
 ```
-docker tag kubernetes-lab/app:0.0.1 ${docker-id}/kubernetes-lab/app:0.0.1
+docker tag kubernetes-lab-app:0.0.1 ${docker-id}/kubernetes-lab-app:0.0.1
 ```
 
 **6. Login to docker hub using docker CLI**  
@@ -53,7 +53,7 @@ Use docker-id and password created in step 2.
 **7. Push the image to docker hub**  
 Execute the following command to push the image to docker hub
 ```
-docker push ${docker-id}/kubernetes-lab/app:0.0.1
+docker push ${docker-id}/kubernetes-lab-app:0.0.1
 ```
 
 Once the push is successful, the image can be seen in docker hub UI (in browser)

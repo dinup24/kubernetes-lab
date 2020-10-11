@@ -3,7 +3,7 @@
 **1. Start the app using the docker image**  
 Execute the following command to start the docker container
 ```
-docker run -it -p 8080:8080 ${docker-id}/kubernetes-lab/app:0.0.1
+docker run -it -p 8080:8080 ${docker-id}/kubernetes-lab-app:0.0.1
 ```
 
 Use `-d` option to run the container in background.  
