@@ -4,7 +4,8 @@ metadata:
   name: ingress
 spec:
   rules:
-  - http:
+  - host: helloworld.ibm.com
+    http:
       paths:
         - path: /
           backend:
