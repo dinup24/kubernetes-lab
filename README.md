@@ -1,9 +1,13 @@
-= Kubernetes Lab
+### Kubernetes Lab
 
-This project shows a very simple hello world app, which has a simple HTTP server which
-simply returns "Hello World!" to every request.
+- [Lab 1](Lab-1.md)
+- [Lab 2](Lab-2.md)
+- [Lab 3](Lab-3.md)
 
-The build.gradle uses the Gradle shadowJar plugin to assemble the application and all it's dependencies into a single "fat" jar.
+
+This project shows a very simple hello world app, which has a simple HTTP server which simply returns "Hello World!" to every request.
+
+The build.gradle uses the Gradle shadowJar plugin to assemble the application and all it's dependencies int a single "fat" jar.
 
 To build the "fat jar"
 
