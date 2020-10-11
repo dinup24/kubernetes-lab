@@ -40,7 +40,7 @@ To see the list of images `docker images`
 **5. Tag the docker image**  
 Tag the docker image with docker-id created in the previous step. This is required to push the image to docker hub.
 ```
-docker tag kubernetes-lab:1.0.0 ${docker-id}/kubernetes-lab/app:0.0.1
+docker tag kubernetes-lab/app:0.0.1 ${docker-id}/kubernetes-lab/app:0.0.1
 ```
 
 **6. Login to docker hub using docker CLI**  
